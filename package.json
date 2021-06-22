@@ -1,12 +1,12 @@
 {
   "name": "action-semantic-pull-request",
-  "version": "0.0.0",
+  "version": "1.2106.1",
   "description": "Ensure your PR title matches the Conventional Commits spec.",
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint src",
     "test": "jest src",
-    "build": "rm -rf dist && ncc build"
+    "build": "ncc build src/index.js -o dist --source-map"
   },
   "repository": {
     "type": "git",
