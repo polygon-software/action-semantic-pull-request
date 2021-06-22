@@ -1,6 +1,6 @@
 {
   "name": "action-semantic-pull-request",
-  "version": "1.2106.1",
+  "version": "1.2106.2",
   "description": "Ensure your PR title matches the Conventional Commits spec.",
   "main": "dist/index.js",
   "scripts": {
